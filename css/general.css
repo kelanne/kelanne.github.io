@@ -1,0 +1,209 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font: normal 100%/1.5 sans-serif;
+}
+
+@media only screen and (min-width: 60em) {
+  html {
+    font: normal 120%/1.5 sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+}
+
+h1 {
+  color: rgb(65,64,66);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(65,64,66);
+  text-align: center;
+  margin-top: 2em;
+}
+
+hr {
+  margin: 0 0 20px 0;
+}
+
+.logo {
+  height: 70px;
+  margin: .5em;
+}
+
+.billboard img {
+  width: 90%;
+  padding-top: 80px;
+  margin-bottom: -.5em;
+}
+
+@media only screen and (min-width: 25em) {
+  .billboard {
+    overflow: hidden;
+    width:70%;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .billboard {
+    overflow: hidden;
+    width:60%;
+    padding-top: 0;
+    margin-top: -10em;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .billboard {
+  width: 50%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .billboard {
+  width: 40%;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .billboard {
+    width: 35%;
+    margin-top: -10em;
+  }
+}
+
+/* about section */
+
+.about {
+  margin: 4em auto 0;
+  padding: 0 1em;
+
+}
+
+p {
+  margin: 1.5em auto 0;
+  padding: 0 1em;
+}
+
+@media only screen and (min-width: 25em) {
+  .about {
+    padding: 0 10%;
+  }
+
+  p {
+    padding: 0 10%;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .about {
+    padding: 0 12% 0 48%;
+  }
+
+  p {
+    padding: 0 12% 0 48%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+  .about {
+    padding: 0 12% 0 48%;
+  }
+
+  p {
+    padding: 0 12% 0 48%;
+    }
+}
+
+
+
+/* contact section */
+
+.contact p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 35em) {
+  .contact {
+    width: 37em;
+    margin: 2em auto 2em;
+  }
+
+  .contact h2 {
+    float: left;
+    margin: -.75em 3em 1em 2em;
+  }
+  .contact p {
+    display: inline;
+    float: right;
+    margin: -.65em 3.5em 1em -1em;
+  }
+}
+
+/* footer section */
+
+.social-i img {
+  width: 12%;
+  margin: 1em 0 0 3%;
+  padding: 0;
+}
+
+@media only screen and (min-width: 25em) {
+  .social-i {
+
+    width: 250px;
+    margin: 0 auto;
+    padding-bottom: .5em;
+    float: right;
+  }
+}
+
+.footer {
+  color: #FFF;
+  margin: 1em 0 0 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(65,64,66);
+  overflow: hidden;
+  height: relative;
+  text-align:  center;
+}
+
+.footer p {
+  font-size: .75em;
+  color: #FFF;
+  padding: 0 .75em .5em 1em;
+  margin: 0;
+  text-align:  left;
+}
+
+@media only screen and (min-width: 25em) {
+  .footer p {
+    margin-top: 1.75em;
+    float: left;
+  }
+}
+
